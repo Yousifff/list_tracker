@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="${request.locale_name}" metal:define-macro="layout">
+  <head>
+    <title>To DO List</title>
+    <link href="${request.static_url('list_activity_tracker:static/css/site.css')}" rel="stylesheet">
+
+
+
+  <body>
+   <div metal:define-slot="header">No Header</div>
+
+    <div metal:define-slot="content">No content</div>
+  </body>
+</html>

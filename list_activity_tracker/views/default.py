@@ -24,7 +24,7 @@ def register_post(request: Request):
         username = request.params['username']
         password = request.params['password']
         create_user(username,password)
-        return {}
+        return x.HTTPFound("/login")
 
 ################ LOGIN ######################
 

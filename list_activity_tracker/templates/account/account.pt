@@ -3,7 +3,6 @@
 
     <div metal:fill-slot="content">
         <h1 tal:content="username">Account ${username} </h1>
-        <h1 tal:content="password">Password ${password} </h1>
     </div>
 
 </div>
